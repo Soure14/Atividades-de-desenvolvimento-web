@@ -1,0 +1,14 @@
+void main()
+{
+const gabaritoLoto = [4, 12, 34, 25, 17];
+const aposta = [3, 17, 55, 21, 34, 4, 27, 29, 20,
+1];
+var pontos = 0;
+for (int i = 0; i < gabaritoLoto.length; i++) {
+for (int j= 0; j < aposta.length; j++) {
+if(gabaritoLoto[i] == aposta[j]) {
+pontos += 1;
+}
+}
+}
+print('O apostador fez $pontos pontos!');
